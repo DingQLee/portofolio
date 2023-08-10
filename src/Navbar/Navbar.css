@@ -1,0 +1,41 @@
+.navbar-div {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.pro-navbar, .personal-navbar {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navbar-div li {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 2px;
+  background-color: white;
+  margin: 1px;
+}
+
+.navbar-div li:hover {
+  box-shadow: 1px 1px 0 gray;
+  transform: translateX(-2px);
+}
+
+.navbar-div li:active {
+  box-shadow: 0 0 0 gray;
+  transform: translateX(0px);
+}
+
+.contact {
+  position: absolute;
+  left: 10px;
+}
+
+.change-button {
+  border: none;
+  border-radius: 0.4rem;
+}

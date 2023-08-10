@@ -1,0 +1,27 @@
+.video-div {
+  min-height: 100vh;
+  margin-bottom: 30vh;
+  line-height: 3.5rem;
+  list-style-type: none;
+}
+
+.video-div h1{
+  border-bottom: 3px solid black;
+}
+
+.youtube-link:hover{
+  border-radius: 4px;
+  background-color: red;
+  box-shadow: 2px 2px black;
+}
+.youtube-link:active{
+  transform: translateX(4px);
+  box-shadow: 1px 1px black;
+  background-color: rgb(224, 2, 2);
+}
+
+.youtube-link {
+  padding: 1rem;
+  margin: 0.5 rem;
+  transition: 0.2s;
+}

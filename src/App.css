@@ -1,0 +1,13 @@
+:root a{
+  text-decoration: none;
+  color: black;
+}
+
+:root {
+  scroll-behavior: smooth;
+  --opa: 0.1;
+}
+
+::selection {
+  background: rgb(225, 247, 166);
+}

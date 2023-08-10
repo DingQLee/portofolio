@@ -1,0 +1,95 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 30vh;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  font-family: 'Cairo Play', sans-serif;
+}
+
+.outro {
+  border-top: 2px solid gray;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.outro h1 {
+  padding-left: 1rem;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
+  color: gray;
+  opacity: 90%;
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+  line-height: 1rem;
+}
+
+.interactive-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.interactive-item {
+  min-width: 200px;
+  background-color: rgba(207, 207, 207, 0.5);
+  min-height: 16rem;
+  margin: 1rem;
+  transition: 0.5s;
+}
+
+.interactive-item:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  min-height: 14rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.name-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.media {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.send-button {
+  border: none;
+  height: 3rem;
+  width: 6rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  box-shadow: 2px 2px 3px black;
+  background-color: rgb(209, 208, 208);
+  transition: 0.3s;
+}
+
+.send-button:hover {
+  background-color: white;
+}
+
+.send-button:active {
+  transform: translate(3px, 3px);
+}
+
+.contact-link {
+ transition: 1s; 
+}
+
+.contact-link:hover {
+  transform: scale(1.5, 1.5);
+  color: gray;
+}

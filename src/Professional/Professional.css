@@ -1,0 +1,50 @@
+.main-content {
+  min-width: 400px;
+  width: 60vw;
+  margin: auto;
+  font-family: 'Nanum Gothic', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-div {
+  height: 90vh;
+  width: 5rem;
+  position: fixed;
+  top: 8vh;
+  left: 0;
+  background-color: antiquewhite;
+  opacity: var(--opa);
+  transition: 1s;
+  border-radius:  0 1rem 1rem 0;
+  box-shadow: 2px 2px 3px rgb(194, 191, 191);
+}
+
+.cv-div h1,p {
+  float: right;
+  padding-right: 1rem;
+}
+
+.cv-item:hover{
+  left: 0rem;
+}
+
+.cv-item {
+  position: absolute;
+  height: 80%;
+  width: 30rem;
+  background-color: rgb(206, 206, 206);
+  top: 6rem;
+  left: -27rem;
+  border-radius:  0 1rem 1rem 0;
+  transition: 0.5s;
+  opacity: 100%;
+}
+
+.cv-item img {
+  float: right;
+}
+
+.cv-item object {
+  margin-top: 2rem;
+}

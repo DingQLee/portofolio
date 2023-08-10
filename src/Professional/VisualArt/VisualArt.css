@@ -1,0 +1,9 @@
+.art-div {
+  min-height: 100vh;
+  line-height: 3.5rem;
+  list-style-type: none;
+}
+
+.art-div h1{
+  border-bottom: 3px solid black;
+}

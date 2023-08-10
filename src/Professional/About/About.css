@@ -1,0 +1,52 @@
+.about-div {
+  min-height: 100vh;
+  margin-bottom: 30vh;
+}
+
+.about-intro {
+  height: 80vh;
+  font-size: 2rem;
+  border-top: 2px solid black;
+  padding-top: 1rem;
+  text-align: justify;
+  padding-left: 4rem;
+}
+
+.about-item {
+  font-size: 2rem;
+  list-style-type: none;
+  line-height: 3.5rem;
+  border-bottom: 5px solid black;
+}
+
+.link-effect {
+  display: inline-block;
+  border-bottom: 4px solid white;
+  margin-bottom: 0.5rem;
+  transition: 0.5s;
+}
+
+.link-effect:hover {
+  border-bottom: 4px solid black;
+}
+
+.giggle {
+  animation: giggle 2s linear infinite;
+  animation-delay: 1s
+}
+
+@keyframes giggle {
+  0% {transform: translateY(0);}
+  3% {transform: translateY(-3px);}
+  6% {transform: translateY(0);}
+  14% {transform: translateY(0);}
+  17% {transform: translateY(-3px);}
+  20% {transform: translateY(0);}
+
+  30% {transform: translateY(0);}
+  33% {transform: translateY(-3px);}
+  36% {transform: translateY(0);}
+  44% {transform: translateY(0);}
+  47% {transform: translateY(-3px);}
+  50% {transform: translateY(0);}
+}
